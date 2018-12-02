@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TechnicalAssessment</string>
+
+    <string name="product_image_transition_name">product image transition</string>
+    <string name="product_name_transition_name">product name transition</string>
+
+    <!-->Main start<-->
+    <string name="main_error">Something goes wrong</string>
+    <string name="main_error_network_connection">No internet connection</string>
+    <!-->Main end<-->
+
+    <!-->Details start<-->
+    <string name="details_description_empty">The description is empty</string>
+    <!-->Details end<-->
+</resources>

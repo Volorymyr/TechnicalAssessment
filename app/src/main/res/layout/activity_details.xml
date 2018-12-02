@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/details_image"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:scaleType="fitXY"
+        android:transitionName="@string/product_image_transition_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/details_name"
+        style="@style/AppTextViewStyle"
+        android:transitionName="@string/product_name_transition_name"
+        app:layout_constraintBottom_toTopOf="@+id/details_amount" />
+
+    <TextView
+        android:id="@+id/details_amount"
+        style="@style/DetailsAmountTextViewStyle"
+        app:layout_constraintBottom_toBottomOf="@+id/details_image" />
+
+    <TextView
+        android:id="@+id/details_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="21sp"
+        app:layout_constraintTop_toBottomOf="@+id/details_image" />
+
+</android.support.constraint.ConstraintLayout>

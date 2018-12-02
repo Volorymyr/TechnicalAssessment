@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/product_root"
+    android:layout_width="match_parent"
+    android:layout_height="160dp">
+
+    <ImageView
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:transitionName="@string/product_image_transition_name"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/product_name"
+        style="@style/AppTextViewStyle"
+        android:layout_alignParentBottom="true"
+        android:transitionName="@string/product_image_transition_name"
+        tools:text="Text Text" />
+
+</RelativeLayout>
