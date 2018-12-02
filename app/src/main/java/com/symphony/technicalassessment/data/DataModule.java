@@ -1,7 +1,7 @@
 package com.symphony.technicalassessment.data;
 
-import com.symphony.technicalassessment.data.categories.CategoryDataSource;
-import com.symphony.technicalassessment.data.categories.CategoryRepository;
+import com.symphony.technicalassessment.data.category.CategoryDataSource;
+import com.symphony.technicalassessment.data.category.CategoryRepository;
 
 import javax.inject.Singleton;
 

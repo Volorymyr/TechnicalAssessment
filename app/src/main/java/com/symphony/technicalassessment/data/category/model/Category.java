@@ -1,4 +1,4 @@
-package com.symphony.technicalassessment.data.categories.model;
+package com.symphony.technicalassessment.data.category.model;
 
 import com.google.gson.annotations.SerializedName;
 import com.symphony.technicalassessment.data.ImmutableStyle;

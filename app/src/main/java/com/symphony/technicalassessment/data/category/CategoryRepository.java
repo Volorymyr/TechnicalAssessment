@@ -1,6 +1,6 @@
-package com.symphony.technicalassessment.data.categories;
+package com.symphony.technicalassessment.data.category;
 
-import com.symphony.technicalassessment.data.categories.model.Category;
+import com.symphony.technicalassessment.data.category.model.Category;
 import com.symphony.technicalassessment.network.ConnectionHelper;
 import com.symphony.technicalassessment.network.NetworkConnectionException;
 
@@ -24,7 +24,7 @@ public class CategoryRepository implements CategoryDataSource {
     }
 
     @Override
-    public Single<List<Category>> fetchCategoriesWithProducts() {
+    public Single<List<Category>> fetchCategories() {
         return mCategoryApi.fetchCategoriesWithProducts()
                 .doOnSubscribe(subscription -> {
                     if (!mConnectionHelper.isConnected()) throw new NetworkConnectionException();

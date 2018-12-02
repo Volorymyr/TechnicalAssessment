@@ -1,6 +1,6 @@
 package com.symphony.technicalassessment.screen.main;
 
-import com.symphony.technicalassessment.data.categories.model.Category;
+import com.symphony.technicalassessment.data.category.model.Category;
 import com.symphony.technicalassessment.screen.BasePresenter;
 
 import java.util.List;

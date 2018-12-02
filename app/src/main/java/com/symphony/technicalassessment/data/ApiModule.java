@@ -1,8 +1,8 @@
 package com.symphony.technicalassessment.data;
 
 import com.google.gson.GsonBuilder;
-import com.symphony.technicalassessment.data.categories.CategoryApi;
-import com.symphony.technicalassessment.data.categories.model.GsonAdaptersCategory;
+import com.symphony.technicalassessment.data.category.CategoryApi;
+import com.symphony.technicalassessment.data.category.model.GsonAdaptersCategory;
 import com.symphony.technicalassessment.data.product.json.ProductDeserializer;
 import com.symphony.technicalassessment.data.product.model.GsonAdaptersSalePrice;
 

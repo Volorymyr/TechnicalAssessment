@@ -1,6 +1,6 @@
-package com.symphony.technicalassessment.data.categories;
+package com.symphony.technicalassessment.data.category;
 
-import com.symphony.technicalassessment.data.categories.model.Category;
+import com.symphony.technicalassessment.data.category.model.Category;
 
 import java.util.List;
 

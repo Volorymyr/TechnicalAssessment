@@ -8,7 +8,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.symphony.technicalassessment.R;
-import com.symphony.technicalassessment.data.categories.model.Category;
+import com.symphony.technicalassessment.data.category.model.Category;
 import com.symphony.technicalassessment.network.NetworkConnectionException;
 import com.symphony.technicalassessment.screen.BaseActivity;
 import com.symphony.technicalassessment.screen.detail.DetailsActivity;

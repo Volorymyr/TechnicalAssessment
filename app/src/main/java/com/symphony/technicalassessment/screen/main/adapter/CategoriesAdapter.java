@@ -14,7 +14,7 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
 import com.symphony.technicalassessment.R;
-import com.symphony.technicalassessment.data.categories.model.Category;
+import com.symphony.technicalassessment.data.category.model.Category;
 import com.symphony.technicalassessment.data.product.model.Product;
 import com.truizlop.sectionedrecyclerview.SimpleSectionedAdapter;
 

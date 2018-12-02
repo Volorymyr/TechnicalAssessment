@@ -1,7 +1,7 @@
 package com.symphony.technicalassessment.screen.main;
 
-import com.symphony.technicalassessment.data.categories.CategoryDataSource;
-import com.symphony.technicalassessment.data.categories.model.Category;
+import com.symphony.technicalassessment.data.category.CategoryDataSource;
+import com.symphony.technicalassessment.data.category.model.Category;
 import com.symphony.technicalassessment.rx.BaseRxTransformerProvider;
 
 import java.util.List;
@@ -37,7 +37,7 @@ public class MainPresenter implements MainContract.Presenter {
 
     @Override
     public void fetchCategories() {
-        Disposable disposable = mCategoryDataSource.fetchCategoriesWithProducts()
+        Disposable disposable = mCategoryDataSource.fetchCategories()
                 .compose(mRxProvider.single())
                 .doOnSubscribe(disposable1 -> mMainView.showProgress())
                 .subscribeWith(new DisposableSingleObserver<List<Category>>() {
